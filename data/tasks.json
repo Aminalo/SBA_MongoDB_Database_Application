@@ -1,0 +1,12 @@
+[
+  { "title": "Design schema", "status": "in-progress", "points": 5, "labels": ["mongodb","schema"] },
+  { "title": "Create validation", "status": "todo", "points": 3, "labels": ["validation"] },
+  { "title": "Seed database", "status": "todo", "points": 2, "labels": ["seed"] },
+  { "title": "Build users CRUD", "status": "done", "points": 3, "labels": ["express","crud"] },
+  { "title": "Build projects CRUD", "status": "in-progress", "points": 5, "labels": ["express","crud"] },
+  { "title": "Build tasks CRUD", "status": "todo", "points": 5, "labels": ["express","crud"] },
+  { "title": "Create indexes", "status": "todo", "points": 2, "labels": ["index"] },
+  { "title": "Reports: velocity", "status": "todo", "points": 3, "labels": ["aggregation"] },
+  { "title": "Reports: status chart", "status": "todo", "points": 2, "labels": ["aggregation"] },
+  { "title": "README & routes table", "status": "todo", "points": 2, "labels": ["docs"] }
+]

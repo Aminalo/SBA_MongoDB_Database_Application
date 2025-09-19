@@ -1,0 +1,8 @@
+[
+  { "name": "Amina Lo", "email": "amina@example.com", "role": "manager" },
+  { "name": "Khadim Diop", "email": "khadim@example.com", "role": "admin" },
+  { "name": "Sara Beck", "email": "sara@example.com", "role": "member" },
+  { "name": "Leo Kim", "email": "leo@example.com", "role": "member" },
+  { "name": "Mila Torres", "email": "mila@example.com", "role": "member" },
+  { "name": "Noah Chen", "email": "noah@example.com", "role": "member" }
+]

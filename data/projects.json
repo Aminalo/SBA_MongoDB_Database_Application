@@ -1,0 +1,7 @@
+[
+  { "name": "Per Scholas Portfolio", "description": "SE program projects", "status": "active" },
+  { "name": "API Sprint", "description": "Express & Mongo API", "status": "active" },
+  { "name": "React Capstone", "description": "UI for tracker", "status": "planned" },
+  { "name": "Docs & Testing", "description": "Write tests and docs", "status": "planned" },
+  { "name": "Performance Pass", "description": "Index & optimize", "status": "paused" }
+]
