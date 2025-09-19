@@ -20,6 +20,11 @@ app.use('/api/projects', projectsRouter);
 app.use('/api/tasks', tasksRouter);
 app.use('/api/reports', reportsRouter);
 
+// 404 & error
+import { notFound, errorHandler } from './middleware/error.mjs';
+app.use(notFound);
+app.use(errorHandler);
+
 const port = process.env.PORT || 4000;
 
 connectDB().then(() => {
