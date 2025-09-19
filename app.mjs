@@ -6,6 +6,7 @@ import { connectDB } from './db.mjs';
 import usersRouter from './routes/users.routes.mjs';
 import projectsRouter from './routes/projects.routes.mjs';
 import tasksRouter from './routes/tasks.routes.mjs';
+import reportsRouter from './routes/reports.routes.mjs';
 
 const app = express();
 app.use(cors());
@@ -17,6 +18,7 @@ app.get('/', (_req, res) => res.json({ ok: true, msg: 'SBA MongoDB Database Appl
 app.use('/api/users', usersRouter);
 app.use('/api/projects', projectsRouter);
 app.use('/api/tasks', tasksRouter);
+app.use('/api/reports', reportsRouter);
 
 const port = process.env.PORT || 4000;
 
